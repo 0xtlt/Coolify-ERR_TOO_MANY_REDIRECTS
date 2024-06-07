@@ -1,0 +1,12 @@
+{
+  "name": "coolify-err-too-many-redirects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker": "node ./app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
