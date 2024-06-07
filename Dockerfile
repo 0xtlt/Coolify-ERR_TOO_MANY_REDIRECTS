@@ -9,7 +9,6 @@ RUN apt-get update -y && apt-get install -y openssl curl
 RUN npm install -g pnpm
 
 COPY package.json ./
-COPY pnpm-lock.yaml ./
 
 RUN pnpm install --prod
 
